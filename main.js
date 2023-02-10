@@ -1,29 +1,32 @@
 const saldoAkhir = prompt('masukkan saldo akhir anda')
 alert(`saldo akhir anda adalah Rp. ${saldoAkhir}`)
 
+
+
 const hari = new Date().getDay()
+
 
 switch(hari) {
     case 1:
-    alert('Senin')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     case 2:
-    alert('Selasa')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     case 3:
-    alert('Rabu')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     case 4:
-    alert('Kamis')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     case 5: 
-    alert('Jumat')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     case 6:
-    alert('Sabtu')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     case 7:
-    alert('Minggu')
+    alert(`Hari ini adalah hari ${hari}`)
     break
     default:
     alert('Hari')
